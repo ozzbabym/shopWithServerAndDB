@@ -1,0 +1,23 @@
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    button {
+        height: 35px;
+        background-color: #4682B4; 
+        border-radius: 30px;
+        border: none;
+        font-size: 13px;
+        color: white;
+        padding: 0px 30px;
+        font-weight: 700;
+    }
+    button:active {
+        background-color: #1E90FF;
+        transition: all 1;
+    }
+    a{
+        text-decoration: none;
+        color: white
+    }
+}

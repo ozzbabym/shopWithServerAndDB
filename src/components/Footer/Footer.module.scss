@@ -1,0 +1,19 @@
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;  
+    padding: 0px 10px;
+    margin-left: -10px;  
+    width: 100%;
+    
+    img {
+        margin-top: 10px;
+        width: 70px;
+    }
+    span {
+        margin: 0px 10px;
+        font-weight: 600;
+    }
+}

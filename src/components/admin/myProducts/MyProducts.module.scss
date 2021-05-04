@@ -1,0 +1,17 @@
+.productsContainer{
+    margin: 20px;
+    
+}
+
+.blockItem{
+    border: 1px solid lightgray;
+    height: 70px;
+    display: flex;
+    margin-top: 20px;
+    img {
+        width: 100px;
+    }
+    span{
+        margin: 0 5px;
+    }
+}

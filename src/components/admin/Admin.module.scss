@@ -1,0 +1,56 @@
+.adminWrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    .navBar{
+        background-color: #4682B4;
+        height: 90vh;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+        }
+        ul {
+            margin-top: 50px;
+            list-style: none;
+            text-decoration: none;
+            li{
+                margin: 10px auto;
+                font-weight: 700;
+                cursor: pointer;
+                
+            }
+        }
+        a:focus {
+            font-weight: 700;
+        }
+    }
+    .addNewGoods{
+        margin: 20px;
+        div {
+            margin-top: 20px;
+        }
+        input {
+            height: 40px;
+            width: 100%;
+            font-size: 20px;
+            outline: none;
+            border: 1px solid lightgray;
+        }
+        .footerBlock{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            input{
+                width: 30%;
+                min-width: 100px;
+            }
+        }
+        input:focus {
+            border: 2px solid lightskyblue;
+        }
+        
+    }
+}
+
